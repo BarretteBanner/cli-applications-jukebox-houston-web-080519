@@ -35,7 +35,7 @@ def run
   input = ''
   while input
   puts "Please enter a command:"
-  input = gets.downcase.strip
+  input = gets.chomp 
   case input
     when "list"
       list(songs) 

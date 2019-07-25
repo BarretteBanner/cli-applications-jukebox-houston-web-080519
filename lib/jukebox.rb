@@ -36,9 +36,9 @@ def run
   input = gets.chomp 
   case choice
     when input == "list"
-      list 
+      list(songs) 
     when input == "play"
-      play
+      play(songs)
     when input == "help"
       help 
     when input == "exit"

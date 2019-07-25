@@ -32,8 +32,9 @@ end
 
 def run 
   help 
-  
+  input = ''
   puts "Please enter a command:"
+  while input
   input = gets.chomp 
   case choice
     when input == "list"

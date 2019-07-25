@@ -35,17 +35,17 @@ def run
   puts "Please enter a command:"
   input = gets.chomp 
   case choice
-  when input == "list"
-    list 
-  when input == "play"
-    play
-  when input == "help"
-    help 
-  when input == "exit"
-    exit_jukebox
-  else
-    help
-  end
+    when input == "list"
+      list 
+    when input == "play"
+      play
+    when input == "help"
+      help 
+    when input == "exit"
+      exit_jukebox
+    else
+      help
+    end
 end
 
 

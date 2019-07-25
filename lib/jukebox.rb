@@ -36,7 +36,7 @@ def run
   while input
   puts "Please enter a command:"
   input = gets.chomp 
-  case choice
+  case input
     when input == "list"
       list(songs) 
     when input == "play"

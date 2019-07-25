@@ -43,6 +43,7 @@ def run
       help 
     when input == "exit"
       exit_jukebox
+      break
     else
       help
     end

@@ -19,6 +19,7 @@ def play(songs)
   input = gets.chomp 
   if songs.include?(input)
     puts "Playing #{input}"
+  elsif 
   else
     puts "Invalid input, please try again"
   end

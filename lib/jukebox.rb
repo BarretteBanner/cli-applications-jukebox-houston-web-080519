@@ -49,6 +49,7 @@ def run
     else
       help
     end
+  end
 end
 
 

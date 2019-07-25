@@ -32,6 +32,7 @@ end
 
 def run 
   help 
+  
   puts "Please enter a command:"
   input = gets.chomp 
   case choice
